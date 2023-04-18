@@ -1,0 +1,9 @@
+http://127.0.0.1:8000/accounts/google/login/callback/
+client_id = 621687270587-jq21e18ureppleq6qqlpr6jqsr7du0jj.apps.googleusercontent.com
+cliemt_secret = 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
+
+If you’re using Authorization Code Grant, you can get code from following URL
+https://accounts.google.com/o/oauth2/v2/auth?redirect_uri=http://127.0.0.1:8000/accounts/google/login/callback/&prompt=consent&response_type=code&client_id=621687270587-jq21e18ureppleq6qqlpr6jqsr7du0jj.apps.googleusercontent.com&scope=openid%20email%20profile&access_type=offline
+
+http://127.0.0.1:8000/accounts/google/login/callback/?code=4%2F0AfgeXvtqhTYwQUulVPz9xyEsdaX0QX2rTvcXh2RD4Tey0igbEeZeci-6z2XRulLfeoAEaw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=1&prompt=consent
+
